@@ -1,0 +1,100 @@
+
+body{
+  font: 16px 28px arial, sans-serif;
+  background-image: url(images.jpeg);
+  color: #333;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+.header{
+  padding: 20px;
+  padding-bottom: 2px;
+}
+
+.header .judul{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.header ul li{
+  display: inline-block;
+  margin-top: 10px;
+  
+}
+
+.header ul li a{
+  margin-right: 12px;
+  text-decoration: none;
+  font-weight: 600px;
+  color: #3c3633;
+}
+
+header a:hover{
+  background-color: lightskyblue;
+  color: white;
+}
+
+.hero img{
+  width: 100%;
+  height: 500px;
+  
+  background-size: cover;
+  background-position: 0 -72px;
+  
+}
+
+.content{
+  padding: 20px;
+}
+
+.content h2{
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.content .penulis{
+  font-size: 11px;
+  margin-top: -25px;
+}
+
+.content .penulisa{
+  color: rgb(70, 13, 226);
+  text-decoration: none;
+}
+.content p{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.main{
+  margin: 50px auto;
+  clear: left;
+}
+
+article img{
+  width: 200px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  clear: left;
+}
+
+article h2{
+  text-align: center;
+  align-items: center;
+}
+
+.footer{
+  background-color: rgb(61, 60, 60);
+  padding: 4px;
+}
+
+.footer .copy{
+  color: #eaeaea;
+  text-align: center;
+  font-size: 30px;
+}
